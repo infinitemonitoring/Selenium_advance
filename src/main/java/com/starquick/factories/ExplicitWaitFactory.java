@@ -1,0 +1,32 @@
+package com.starquick.factories;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import com.starquick.constants.frameworkConstranst;
+import com.starquick.manager.DriverManager;
+
+import com.starquick.enums.waitStatergy;
+
+public class ExplicitWaitFactory {
+
+	public static WebElement performexplicitwait(waitStatergy waitStrategy, By by) {
+		WebElement element=null;
+		if (waitStrategy == waitStatergy.CLICKABLE) {
+			  element=  new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(frameworkConstranst.getExplicitwait()))
+					.until(ExpectedConditions.elementToBeClickable(by));
+		} else if (waitStrategy == waitStatergy.PRESENCE) {
+			element= new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(frameworkConstranst.getExplicitwait()))
+					.until(ExpectedConditions.presenceOfElementLocated(by));
+		} else if (waitStrategy == waitStatergy.VISIBLE) {
+			element=  new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(frameworkConstranst.getExplicitwait()))
+					.until(ExpectedConditions.visibilityOfElementLocated(by));
+		} else if (waitStrategy == waitStatergy.NONE) {
+			element=DriverManager.getDriver().findElement(by);
+		}
+		return element;
+	}
+}
