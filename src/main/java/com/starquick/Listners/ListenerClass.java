@@ -9,19 +9,26 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.starquick.customAnotation.FrameworkAnotation;
+import com.starquick.exceptions.FrameworkException;
 import com.starquick.reports.ExtendLogger;
 import com.starquick.reports.ExtendReport;
-import com.starquick.reports.ExtendReportManager;
 
+/**
+ * Listerner Class which contains ItestListener and IsuiteListener which help to initialize Extend report.
+ * 
+ * @author Faraz Dasurkar
+ * @Version 1.0
+ *@Since 2024
+ */
 public class ListenerClass implements ITestListener, ISuiteListener {
 
-
+	
     @Override
     public void onStart(ISuite suite) {
     	try {
 			ExtendReport.initreport();
 		} catch (Exception e) {
-			
+			throw new FrameworkException("Some issue onStart while Initalize Report");
 		}
     }
 
@@ -31,7 +38,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 			try {
 				ExtendReport.flushreport();
 			} catch (Exception e) {
-			
+				throw new FrameworkException("Some issue onFinish while Flashing Report");
 			}
     }
 
@@ -47,7 +54,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 			ExtendReport.addauthors(result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(FrameworkAnotation.class).author());
 			ExtendReport.addCategory(result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(FrameworkAnotation.class).category());
     	} catch (Exception e) {
-			e.printStackTrace();
+			throw new FrameworkException("Some issue onTestSuccess While Initalize");
 		}
     }
 
@@ -59,7 +66,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 			ExtendLogger.fail(result.getThrowable().toString());
 			ExtendLogger.fail(Arrays.toString(result.getThrowable().getStackTrace()));
 		} catch (Exception e) {
-			e.printStackTrace();
+			throw new FrameworkException("Some issue onTestFailure While Initalize");
 		}
     }
 

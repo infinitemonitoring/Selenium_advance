@@ -2,9 +2,9 @@ package com.starquick.constants;
 
 import com.starquick.utils.PropertyUtils;
 
-public final class frameworkConstranst {
+public final class FrameworkConstranst {
 
-	private frameworkConstranst(){}
+	private FrameworkConstranst(){}
 	
 	private static final String RESOURCESPATH = System.getProperty("user.dir")+"/src/test/resources";
 	private static final String USERDIRECTORY = System.getProperty("user.dir");
@@ -27,7 +27,7 @@ public final class frameworkConstranst {
 		return runerdatasheet;
 	}
 
-	public static String getExtendFileReports() throws Exception {
+	public static String getExtendFileReports() {
 		if(extendReporterFile.isEmpty()) {
 			extendReporterFile= createReportPath();
 		}
@@ -35,8 +35,8 @@ public final class frameworkConstranst {
 		return extendReporterFile;
 		
 	}
-	private static String createReportPath() throws Exception {
-		if(PropertyUtils.get("overridereports").toLowerCase().equals("yes")) {
+	private static String createReportPath() {
+		if(PropertyUtils.get("overridereports").toLowerCase().equalsIgnoreCase("yes")) {
 			return EXTENDREPORTPATH+"/"+ System.currentTimeMillis()+"index.html";
 		}
 		return EXTENDREPORTPATH;

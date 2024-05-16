@@ -3,6 +3,7 @@ package com.starquick.pages;
 import org.openqa.selenium.By;
 
 import com.starquick.enums.waitStatergy;
+import com.starquick.utils.DecodeUtils;
 
 public final class OrangeHRMLoginPage  extends BasePage  {
 
@@ -22,7 +23,7 @@ public final class OrangeHRMLoginPage  extends BasePage  {
 
 	public OrangeHRMLoginPage enterPassword(String password) {
 		
-		sendkeys(waitStatergy.PRESENCE, Password, password,"Password Field");
+		sendkeys(waitStatergy.PRESENCE, Password, DecodeUtils.getDecodedString(password),"Password Field");
 	//	DriverManager.getDriver().findElement(Password).sendKeys(password);
 		return this;
 	}

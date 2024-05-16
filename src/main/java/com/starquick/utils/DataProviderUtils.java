@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.testng.annotations.DataProvider;
 
-import com.starquick.constants.frameworkConstranst;
+import com.starquick.constants.FrameworkConstranst;
 
 
 public final class DataProviderUtils {
@@ -19,7 +19,9 @@ public final class DataProviderUtils {
 		String testname = m.getName();
 
 		if (list.isEmpty()) {
-			list = ExcelUtils.getTestDetails(frameworkConstranst.getExecuriondatasheet());
+
+			list = ExcelUtils.getTestDetails(FrameworkConstranst.getExecuriondatasheet());
+
 		}
 
 		List<Map<String, String>> smalllist = new ArrayList<>();

@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.starquick.enums.ConfigProperties;
@@ -25,29 +26,24 @@ public final class DriverFactory {
 			if(browserName.equalsIgnoreCase("chrome")) {
 				if(Runmode.equalsIgnoreCase("remote")) {
 					ChromeOptions cap = new ChromeOptions();
-
-					driver=  new RemoteWebDriver(new URL("htpps://localhost:5444/"),cap);
-
+					driver=  new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
 				}else {
-					DriverManager.setDriver(new ChromeDriver());	
+					driver= new ChromeDriver();
+					
 				}
 			}else  if(browserName.equalsIgnoreCase("edge")){
 				if(Runmode.equalsIgnoreCase("remote")) {
 					EdgeOptions cap = new EdgeOptions();
-
-					driver = new RemoteWebDriver(new URL("htpps://localhost:5444/"),cap);
-
+					driver = new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
 				}else {
-					DriverManager.setDriver(new EdgeDriver());	
+					driver= new EdgeDriver();	
 				}
 			}else  if(browserName.equalsIgnoreCase("firefox")){
 				if(Runmode.equalsIgnoreCase("remote")) {
-					EdgeOptions cap = new EdgeOptions();
-
-					driver = new RemoteWebDriver(new URL("htpps://localhost:5444/"),cap);
-
+					FirefoxOptions cap = new FirefoxOptions();
+					driver = new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
 				}else {
-					DriverManager.setDriver(new FirefoxDriver());	
+					driver = new FirefoxDriver();	
 				}
 			}
 		}

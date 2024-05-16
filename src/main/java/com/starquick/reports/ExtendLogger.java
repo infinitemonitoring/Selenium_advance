@@ -1,11 +1,17 @@
 package com.starquick.reports;
 
-import com.starquick.utils.screenShotUtils;
+import com.starquick.utils.ScreenShotUtils;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.starquick.enums.ConfigProperties;
 import com.starquick.utils.PropertyUtils;
-
+/**
+ * 
+ * 
+ * @author Faraz Dasurkar
+ * @Version 1.0
+ *@Since 2024
+ */
 public class ExtendLogger {
 	
 	private ExtendLogger() {}
@@ -31,7 +37,7 @@ public class ExtendLogger {
 	public static void pass(String message, Boolean isScreenshotNeeded) throws Exception {
 		
 //		if(PropertyUtils.get(ConfigProperties.PASSEDSTEPSCREENSHOTS).equalsIgnoreCase("yes") && isScreenshotNeeded){
-			ExtendReportManager.getExtendTest().pass(message, MediaEntityBuilder.createScreenCaptureFromBase64String(screenShotUtils.getBase64Image()).build());
+			ExtendReportManager.getExtendTest().pass(message, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShotUtils.getBase64Image()).build());
 			
 //		}else {
 //			pass(message);
@@ -39,7 +45,7 @@ public class ExtendLogger {
 	}
 	public static void fail(String message, Boolean isScreenshotNeeded) throws Exception {
 		if(PropertyUtils.get(ConfigProperties.FAILEDSTEPSSCREENSHOTS).equalsIgnoreCase("yes") && isScreenshotNeeded){
-			ExtendReportManager.getExtendTest().fail(message, MediaEntityBuilder.createScreenCaptureFromBase64String(screenShotUtils.getBase64Image()).build());
+			ExtendReportManager.getExtendTest().fail(message, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShotUtils.getBase64Image()).build());
 			System.out.println("Inside Screenshot File ");
 		}
 		else {
@@ -48,7 +54,7 @@ public class ExtendLogger {
 	}
 	public static void skip(String message, Boolean isScreenshotNeeded) throws Exception {
 		if(PropertyUtils.get(ConfigProperties.SKIPPEDSTEPSCREENSHOTS).equalsIgnoreCase("yes") && isScreenshotNeeded){
-			ExtendReportManager.getExtendTest().skip(message, MediaEntityBuilder.createScreenCaptureFromBase64String(screenShotUtils.getBase64Image()).build());
+			ExtendReportManager.getExtendTest().skip(message, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShotUtils.getBase64Image()).build());
 			
 		}else {
 			skip(message);
@@ -56,7 +62,7 @@ public class ExtendLogger {
 	}
 	public static void info(String message, Boolean isScreenshotNeeded) throws Exception {
 		if(PropertyUtils.get(ConfigProperties.INFOSTEPSCREENSHOTS).equalsIgnoreCase("yes") && isScreenshotNeeded){
-			ExtendReportManager.getExtendTest().info(message, MediaEntityBuilder.createScreenCaptureFromBase64String(screenShotUtils.getBase64Image()).build());
+			ExtendReportManager.getExtendTest().info(message, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShotUtils.getBase64Image()).build());
 			
 		}else {
 			info(message);

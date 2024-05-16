@@ -1,7 +1,13 @@
 package com.starquick.reports;
 
 import com.aventstack.extentreports.ExtentTest;
-
+/**
+ * 
+ * 
+ * @author Faraz Dasurkar
+ * @Version 1.0
+ *@Since 2024
+ */
 public final class ExtendReportManager {
 	
 	

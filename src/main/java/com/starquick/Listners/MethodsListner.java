@@ -8,14 +8,20 @@ import com.starquick.constants.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * Method listner which help to set the Invocation count 
+ * 
+ * @author Faraz Dasurkar
+ * @Version 1.0
+ *@Since 2024
+ */
 public class MethodsListner implements IMethodInterceptor {
 	
 	@Override
 	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
 
 		List<Map<String, String>> list = null;
-		list = ExcelUtils.getTestDetails(frameworkConstranst.getRunerdatasheet());
+		list = ExcelUtils.getTestDetails(FrameworkConstranst.getRunerdatasheet());
 		List<IMethodInstance> result = new ArrayList<>();
 		for (int i = 0; i < methods.size(); i++) {
 			for (int j = 0; j < list.size(); j++) {

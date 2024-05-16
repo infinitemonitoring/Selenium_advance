@@ -4,8 +4,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import com.starquick.manager.DriverManager;
 
-public final class screenShotUtils {
-    private screenShotUtils(){
+public final class ScreenShotUtils {
+    private ScreenShotUtils(){
 
     }
     public static String getBase64Image() {

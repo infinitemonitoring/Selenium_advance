@@ -4,6 +4,7 @@
   <listeners>
     <listener class-name="com.starquick.Listners.ListenerClass"/>
     <listener class-name="com.starquick.Listners.MethodsListner"/>
+    <listener class-name="com.starquick.Listners.Anotationtranformer"/>
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
