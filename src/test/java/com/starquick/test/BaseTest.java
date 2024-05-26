@@ -17,6 +17,7 @@ public class BaseTest {
 	protected void setUp(Object[] data){
 		
 		Map<String,String> map = (Map<String,String>)data[0];
+		System.out.println(map.get("browser"));
 		Driver.initDriver(map.get("browser"));
 	}
 	
