@@ -1,480 +1,1592 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+<style type="text/css">
+table {
+	margin-bottom: 10px;
+	border-collapse: collapse;
+	empty-cells: show
+}
+
+th, td {
+	border: 1px solid #009;
+	padding: .25em .5em
+}
+
+th {
+	vertical-align: bottom
+}
+
+td {
+	vertical-align: top
+}
+
+table a {
+	font-weight: bold
+}
+
+.stripe td {
+	background-color: #E6EBF9
+}
+
+.num {
+	text-align: right
+}
+
+.passedodd td {
+	background-color: #3F3
+}
+
+.passedeven td {
+	background-color: #0A0
+}
+
+.skippedodd td {
+	background-color: #DDD
+}
+
+.skippedeven td {
+	background-color: #CCC
+}
+
+.failedodd td, .attn {
+	background-color: #F33
+}
+
+.failedeven td, .stripe .attn {
+	background-color: #D00
+}
+
+.stacktrace {
+	white-space: pre;
+	font-family: monospace
+}
+
+.totop {
+	font-size: 85%;
+	text-align: center;
+	border-bottom: 2px solid #000
+}
+
+.invisible {
+	display: none
+}
+</style>
 </head>
 <body>
-<table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">14</td><td class="num">0</td><td class="num">0</td><td class="num">78,762</td><td></td><td></td></tr>
-</table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.starquick.test.starquickaddcartjourney</td><td><a href="#m0">setUp</a></td><td rowspan="1">1721370688762</td><td rowspan="1">1588</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="27">com.starquick.test.starquickaddcartjourney</td><td><a href="#m1">setUp</a></td><td rowspan="13">1721370690389</td><td rowspan="13">0</td></tr><tr class="skippedeven"><td><a href="#m2">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m3">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m4">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m5">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m6">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m7">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m8">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m9">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m10">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m11">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m12">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m13">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m14">tearDown</a></td><td rowspan="14">1721370690365</td><td rowspan="14">0</td></tr><tr class="skippedeven"><td><a href="#m15">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m16">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m17">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m18">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m19">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m20">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m21">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m22">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m23">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m24">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m25">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m26">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m27">tearDown</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="14">com.starquick.test.starquickaddcartjourney</td><td><a href="#m28">Milksearchproduct</a></td><td rowspan="2">1721370690357</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m29">Milksearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m30">Onionsearchproduct</a></td><td rowspan="3">1721370690364</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m31">Onionsearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m32">Onionsearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m33">Rusksearchproduct</a></td><td rowspan="3">1721370690372</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m34">Rusksearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m35">Rusksearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m36">detergentsearchproduct</a></td><td rowspan="3">1721370690383</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m37">detergentsearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m38">detergentsearchproduct</a></td></tr><tr class="skippedeven"><td><a href="#m39">searchcookoil</a></td><td rowspan="3">1721370690391</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m40">searchcookoil</a></td></tr><tr class="skippedeven"><td><a href="#m41">searchcookoil</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.starquick.test.starquickaddcartjourney</td><td><a href="#m42">Milksearchproduct</a></td><td rowspan="1">1721370619637</td><td rowspan="1">68872</td></tr></tbody>
-</table>
-<h2>Test</h2><h3 id="m0">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[{product=Milk, SecondProduct=Amul Masti Dahi Pouch, browser=Edge, testname=Milksearchproduct, execute=Yes}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.starquick.test.starquickaddcartjourney#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m26">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m27">com.starquick.test.starquickaddcartjourney#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m28">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m29">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Edge}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m30">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Edge}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m31">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m32">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m33">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m34">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m35">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m36">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m37">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m38">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Edge}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m39">com.starquick.test.starquickaddcartjourney#searchcookoil</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Firefox}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m40">com.starquick.test.starquickaddcartjourney#searchcookoil</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m41">com.starquick.test.starquickaddcartjourney#searchcookoil</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Edge}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-	at com.starquick.manager.Driver.initDriver(Driver.java:20)
-	at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m42">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	<table>
+		<tr>
+			<th>Test</th>
+			<th># Passed</th>
+			<th># Skipped</th>
+			<th># Retried</th>
+			<th># Failed</th>
+			<th>Time (ms)</th>
+			<th>Included Groups</th>
+			<th>Excluded Groups</th>
+		</tr>
+		<tr>
+			<th colspan="8">Suite</th>
+		</tr>
+		<tr>
+			<td><a href="#t0">Test</a></td>
+			<td class="num">1</td>
+			<td class="num attn">14</td>
+			<td class="num">0</td>
+			<td class="num">0</td>
+			<td class="num">78,762</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<table id='summary'>
+		<thead>
+			<tr>
+				<th>Class</th>
+				<th>Method</th>
+				<th>Start</th>
+				<th>Time (ms)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th colspan="4">Suite</th>
+			</tr>
+		</tbody>
+		<tbody id="t0">
+			<tr>
+				<th colspan="4">Test &#8212; failed (configuration methods)</th>
+			</tr>
+			<tr class="failedeven">
+				<td rowspan="1">com.starquick.test.starquickaddcartjourney</td>
+				<td><a href="#m0">setUp</a></td>
+				<td rowspan="1">1721370688762</td>
+				<td rowspan="1">1588</td>
+			</tr>
+			<tr>
+				<th colspan="4">Test &#8212; skipped (configuration methods)</th>
+			</tr>
+			<tr class="skippedeven">
+				<td rowspan="27">com.starquick.test.starquickaddcartjourney</td>
+				<td><a href="#m1">setUp</a></td>
+				<td rowspan="13">1721370690389</td>
+				<td rowspan="13">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m2">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m3">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m4">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m5">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m6">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m7">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m8">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m9">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m10">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m11">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m12">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m13">setUp</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m14">tearDown</a></td>
+				<td rowspan="14">1721370690365</td>
+				<td rowspan="14">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m15">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m16">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m17">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m18">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m19">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m20">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m21">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m22">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m23">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m24">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m25">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m26">tearDown</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m27">tearDown</a></td>
+			</tr>
+			<tr>
+				<th colspan="4">Test &#8212; skipped</th>
+			</tr>
+			<tr class="skippedeven">
+				<td rowspan="14">com.starquick.test.starquickaddcartjourney</td>
+				<td><a href="#m28">Milksearchproduct</a></td>
+				<td rowspan="2">1721370690357</td>
+				<td rowspan="2">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m29">Milksearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m30">Onionsearchproduct</a></td>
+				<td rowspan="3">1721370690364</td>
+				<td rowspan="3">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m31">Onionsearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m32">Onionsearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m33">Rusksearchproduct</a></td>
+				<td rowspan="3">1721370690372</td>
+				<td rowspan="3">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m34">Rusksearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m35">Rusksearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m36">detergentsearchproduct</a></td>
+				<td rowspan="3">1721370690383</td>
+				<td rowspan="3">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m37">detergentsearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m38">detergentsearchproduct</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m39">searchcookoil</a></td>
+				<td rowspan="3">1721370690391</td>
+				<td rowspan="3">0</td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m40">searchcookoil</a></td>
+			</tr>
+			<tr class="skippedeven">
+				<td><a href="#m41">searchcookoil</a></td>
+			</tr>
+			<tr>
+				<th colspan="4">Test &#8212; passed</th>
+			</tr>
+			<tr class="passedeven">
+				<td rowspan="1">com.starquick.test.starquickaddcartjourney</td>
+				<td><a href="#m42">Milksearchproduct</a></td>
+				<td rowspan="1">1721370619637</td>
+				<td rowspan="1">68872</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Test</h2>
+	<h3 id="m0">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>[{product=Milk, SecondProduct=Amul Masti Dahi Pouch,
+				browser=Edge, testname=Milksearchproduct, execute=Yes}]</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m1">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m2">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m3">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m4">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m5">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m6">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m7">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m8">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m9">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m10">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m11">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m12">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m13">com.starquick.test.starquickaddcartjourney#setUp</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m14">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m15">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m16">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m17">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m18">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m19">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m20">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m21">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m22">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m23">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m24">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m25">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m26">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m27">com.starquick.test.starquickaddcartjourney#tearDown</h3>
+	<table class="result">
+		<tr>
+			<th class="invisible" />
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m28">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Milk, testname=Milksearchproduct,
+				SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Firefox}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m29">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Milk, testname=Milksearchproduct,
+				SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Edge}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m30">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Onion, testname=Onionsearchproduct, SecondProduct=,
+				execute=Yes, browser=Edge}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m31">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Onion, testname=Onionsearchproduct, SecondProduct=,
+				execute=Yes, browser=Chrome}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m32">com.starquick.test.starquickaddcartjourney#Onionsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Onion, testname=Onionsearchproduct, SecondProduct=,
+				execute=Yes, browser=Firefox}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m33">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Rusk, testname=Rusksearchproduct,
+				SecondProduct=Britania Rusk, execute=Yes, browser=Edge}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m34">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Rusk, testname=Rusksearchproduct,
+				SecondProduct=Britania Rusk, execute=Yes, browser=Firefox}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m35">com.starquick.test.starquickaddcartjourney#Rusksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Rusk, testname=Rusksearchproduct,
+				SecondProduct=Britania Rusk, execute=Yes, browser=Chrome}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m36">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=surf excel, testname=detergentsearchproduct,
+				SecondProduct=, execute=Yes, browser=Firefox}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m37">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=surf excel, testname=detergentsearchproduct,
+				SecondProduct=, execute=Yes, browser=Chrome}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m38">com.starquick.test.starquickaddcartjourney#detergentsearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=surf excel, testname=detergentsearchproduct,
+				SecondProduct=, execute=Yes, browser=Edge}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m39">com.starquick.test.starquickaddcartjourney#searchcookoil</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Fortune oil, testname=searchcookoil,
+				SecondProduct=, execute=Yes, browser=Firefox}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m40">com.starquick.test.starquickaddcartjourney#searchcookoil</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Fortune oil, testname=searchcookoil,
+				SecondProduct=, execute=Yes, browser=Chrome}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m41">com.starquick.test.starquickaddcartjourney#searchcookoil</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Fortune oil, testname=searchcookoil,
+				SecondProduct=, execute=Yes, browser=Edge}</td>
+		</tr>
+		<tr>
+			<th>Exception</th>
+		</tr>
+		<tr>
+			<td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException:
+					Could not start a new session. Response code 500. Message: session
+					not created: Microsoft Edge failed to start: crashed. (session not
+					created: DevToolsActivePort file doesn&apos;t exist) (The process
+					started from msedge location C:\Program Files
+					(x86)\Microsoft\Edge\Application\msedge.exe is no longer running,
+					so msedgedriver is assuming that msedge has crashed.) Host info:
+					host: &apos;DESKTOP-CG41JSG&apos;, ip: &apos;192.168.0.103&apos;
+					Build info: version: &apos;4.21.0&apos;, revision:
+					&apos;79ed462ef4&apos; System info: os.name: &apos;Windows
+					10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;,
+					java.version: &apos;17.0.10&apos; Driver info:
+					org.openqa.selenium.edge.EdgeDriver Command: [null, newSession
+					{capabilities=[Capabilities {browserName: MicrosoftEdge,
+					ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr...,
+					extensions: []}}]}] at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+					at
+					org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+					at
+					org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+					at
+					org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+					at
+					org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+					at
+					org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+					at
+					org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+					at
+					com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
+					at com.starquick.manager.Driver.initDriver(Driver.java:20) at
+					com.starquick.test.BaseTest.setUp(BaseTest.java:24) at
+					java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+					at
+					java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+					at java.base/java.lang.Thread.run(Thread.java:842) ... Removed 13
+					stack frames</div></td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
+	<h3 id="m42">com.starquick.test.starquickaddcartjourney#Milksearchproduct</h3>
+	<table class="result">
+		<tr class="param">
+			<th>Parameter #1</th>
+		</tr>
+		<tr class="param stripe">
+			<td>{product=Milk, testname=Milksearchproduct,
+				SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}</td>
+		</tr>
+	</table>
+	<p class="totop">
+		<a href="#summary">back to summary</a>
+	</p>
 </body>
 </html>

@@ -5,6 +5,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Objects;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,8 +17,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.starquick.enums.ConfigProperties;
 import com.starquick.utils.PropertyUtils;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public final class DriverFactory {
 
@@ -35,8 +34,9 @@ public final class DriverFactory {
 					ChromeOptions options = new ChromeOptions();
 //					System.setProperty("webdriver.chrome.driver", "C:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 //					options.setBinary("C:/chrome-win64/chrome-win64/chrome.exe");
-					System.out.println("This is Chrome Local");
+					LogManager.getLogger().info("Local System Run - Running on Chrome");
 					driver= new ChromeDriver(options);
+					LogManager.getLogger().info("Launched successfully");;
 					driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 					
 				}
@@ -45,14 +45,19 @@ public final class DriverFactory {
 					EdgeOptions cap = new EdgeOptions();
 					driver = new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
+					LogManager.getLogger().info("Local System Run - Running on Edge");
 					driver= new EdgeDriver();	
+					LogManager.getLogger().info("Launched successfully");;
 				}
 			}else  if(browserName.equalsIgnoreCase("firefox")){
 				if(Runmode.equalsIgnoreCase("remote")) {
 					FirefoxOptions cap = new FirefoxOptions();
+					
 					driver = new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
+					LogManager.getLogger().info("Local System Run - Running on Firefox");
 					driver = new FirefoxDriver();	
+					LogManager.getLogger().info("Launched successfully");;
 				}
 			}
 		}

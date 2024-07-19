@@ -39,9 +39,9 @@ public class ExtendReport {
 
 		ExtendReportManager.setExtendTest(extent.createTest(testcasename));
 	}
-	public static void addauthors(String[] author) {
-		for(String temp: author) {
-			ExtendReportManager.getExtendTest().assignAuthor(temp);
+	public static void addauthors(String[] authors) {
+		for(String author: authors) {
+			ExtendReportManager.getExtendTest().assignAuthor(author);
 
 		}
 	}

@@ -3,13 +3,14 @@
 <suite name="Suite" data-provider-thread-count="1">
 	<listeners>
 		<listener class-name="com.starquick.Listners.ListenerClass"></listener>
-		 <listener class-name="com.starquick.Listners.MethodsListner"></listener> 
-		<listener class-name="com.starquick.Listners.Anotationtranformer"></listener>
+		<listener class-name="com.starquick.Listners.MethodsListner"></listener>
+		<listener
+			class-name="com.starquick.Listners.Anotationtranformer"></listener>
 	</listeners>
 	<test thread-count="1" name="Test" parallel="methods">
 		<classes>
 			<class name="com.starquick.test.starquickaddcartjourney" />
-			
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="1" failed="0" skipped="14">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2024-07-19T12:00:11 IST" name="Suite" finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
-    <groups>
-    </groups>
-    <test started-at="2024-07-19T12:00:11 IST" name="Test" finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
-      <class name="com.starquick.test.starquickaddcartjourney">
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:00:13 IST" name="setUp" finished-at="2024-07-19T12:00:19 IST" duration-ms="6633" status="PASS">
-          <params>
-            <param index="0">
-              <value>
+<testng-results ignored="0" total="15" passed="1"
+	failed="0" skipped="14">
+	<reporter-output>
+	</reporter-output>
+	<suite started-at="2024-07-19T12:00:11 IST" name="Suite"
+		finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
+		<groups>
+		</groups>
+		<test started-at="2024-07-19T12:00:11 IST" name="Test"
+			finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
+			<class name="com.starquick.test.starquickaddcartjourney">
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:00:13 IST" name="setUp"
+					finished-at="2024-07-19T12:00:19 IST" duration-ms="6633"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[Ljava.lang.Object;@5d1b9c3d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:00:19 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:28 IST" duration-ms="68872" status="PASS">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method
+					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:00:19 IST" name="Milksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:28 IST"
+					duration-ms="68872" status="PASS">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Milksearchproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:28 IST" name="tearDown" finished-at="2024-07-19T12:01:28 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:28 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="1588" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Milksearchproduct -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:28 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:28 IST" duration-ms="189"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:28 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="1588"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[[Ljava.lang.Object;@5fdfdf71]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -51,8 +71,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -95,21 +115,26 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method
+					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Edge}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -118,8 +143,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -162,25 +187,33 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Milksearchproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Milksearchproduct -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -189,8 +222,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -233,29 +266,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Milksearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Milksearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -264,8 +308,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -308,33 +352,47 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Onionsearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Onionsearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method
+					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Edge}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -343,8 +401,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -387,25 +445,33 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Onionsearchproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Onionsearchproduct -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -414,8 +480,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -458,29 +524,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Onionsearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Onionsearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -489,8 +566,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -533,29 +610,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Rusksearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Rusksearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -564,8 +652,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -608,33 +696,47 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Rusksearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Rusksearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method
+					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -643,8 +745,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -687,25 +789,33 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Rusksearchproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Rusksearchproduct -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -714,8 +824,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -758,29 +868,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detergentsearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- detergentsearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Edge}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -789,8 +910,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -833,29 +954,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detergentsearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- detergentsearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -864,8 +996,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -908,29 +1040,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detergentsearchproduct -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- detergentsearchproduct -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Chrome}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -939,8 +1082,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -983,29 +1126,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchcookoil -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchcookoil -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Edge}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -1014,8 +1168,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -1058,29 +1212,40 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchcookoil -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchcookoil -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+				<test-method
+					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
+					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
+					duration-ms="0" status="SKIP">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Firefox}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
+							</value>
+						</param>
+					</params>
+					<exception
+						class="org.openqa.selenium.SessionNotCreatedException">
+						<message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -1089,8 +1254,8 @@ Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn't exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -1133,20 +1298,26 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchcookoil -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="setUp" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]" started-at="2024-07-19T12:01:30 IST" name="tearDown" finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.starquick.test.starquickaddcartjourney -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+						</full-stacktrace>
+					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- searchcookoil -->
+				<test-method is-config="true"
+					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="setUp"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method is-config="true"
+					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
+					started-at="2024-07-19T12:01:30 IST" name="tearDown"
+					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+			</class> <!-- com.starquick.test.starquickaddcartjourney -->
+		</test> <!-- Test -->
+	</suite> <!-- Suite -->
 </testng-results>

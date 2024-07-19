@@ -3,6 +3,8 @@ package com.starquick.test;
 import com.starquick.customAnotation.FrameworkAnotation;
 import com.starquick.enums.CatogoryType;
 import com.starquick.pages.TATAOpenLandingPage1;
+
+import org.apache.logging.log4j.LogManager;
 import org.assertj.core.api.Assertions;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
@@ -14,58 +16,58 @@ public final class starquickaddcartjourney extends BaseTest {
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void Milksearchproduct(HashMap<String, String> data) {
-
+		LogManager.getLogger().info("Milk Search Product Started");
 			String product_search_Amul_Masti_Dahi_Pouch = new TATAOpenLandingPage1().clicksearch()
 					.searchproduct(data.get("product") + Keys.ENTER).Amulmilk().clicksearch()
 					.searchproduct(data.get("SecondProduct") + Keys.ENTER).product_search_Amul_Masti_Dahi_Pouch();
 			Assertions.assertThat(product_search_Amul_Masti_Dahi_Pouch).containsIgnoringCase("Continue").isNotNull();
 		
-				
+			LogManager.getLogger().info("Milk Search Product End");	
 	}
 
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void Rusksearchproduct(HashMap<String, String> data) throws InterruptedException {
-
+		LogManager.getLogger().info("Rusk search product Started");
 		String product_search_rusk = new TATAOpenLandingPage1().clicksearch()
 				.searchproduct(data.get("product") + Keys.ENTER).Rusk().after_Add_to_Cart_closebutton().clicksearch()
 				.searchproduct(data.get("SecondProduct") + Keys.ENTER).BritaniaRusk();
-
+		LogManager.getLogger().info("Rusk search product End");
 	}
 	
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void Onionsearchproduct(HashMap<String, String> data) {
-
+		LogManager.getLogger().info("onion search product Start");
 		String onion = new TATAOpenLandingPage1().clicksearch()
 				.searchproduct(data.get("product") + Keys.ENTER).onion();
-
+		LogManager.getLogger().info("onion search product End");
 	}
 	
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void detergentsearchproduct(HashMap<String, String> data) {
-
+		LogManager.getLogger().info("Detergent search product Start");
 		String searchdetergent = new TATAOpenLandingPage1().clicksearch()
 				.searchproduct(data.get("product") + Keys.ENTER).searchdetergent();
-
+		LogManager.getLogger().info("Detergent search product end");
 	}
 	
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void searchcookoil(HashMap<String, String> data) {
-
+		LogManager.getLogger().info("Search Cooking Oil product Start");
 		String searchcookoil = new TATAOpenLandingPage1().clicksearch()
 				.searchproduct(data.get("product") + Keys.ENTER).searchcookoil();
-
+		LogManager.getLogger().info("Search Cooking Oil product End");
 	}
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
 	@Test
 	protected void sprite(HashMap<String, String> data) {
-
+		LogManager.getLogger().info("Sprite product Start");
 		String softdrink = new TATAOpenLandingPage1().clicksearch()
 				.searchproduct(data.get("product") + Keys.ENTER).sprite();
-
+		LogManager.getLogger().info("Sprite product End");
 	}
 	
 	@FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
