@@ -1,19 +1,45 @@
+/**
+ * This package contains classes for sending emails with attachments using JavaMail API.
+ */
 package com.starquick.java_mail_API;
 
 import com.starquick.constants.FrameworkConstants;
 
 /**
- * Data for Sending EMail after execution
+ * EmailConfig holds configuration data for sending emails after execution.
+ * It includes SMTP server details, sender credentials, recipient addresses, 
+ * and email subject information.
  */
 public class EmailConfig {
 
-	public static final String SERVER = "smtp.gmail.com";
-	public static final String PORT = "587";
+    /**
+     * The SMTP server host for sending emails.
+     */
+    public static final String SERVER = "smtp.gmail.com";
 
-	public static final String FROM = "infinitemonitoring09@gmail.com";
-	public static final String PASSWORD = "begolhijumdmmoro";
+    /**
+     * The SMTP server port for sending emails.
+     */
+    public static final String PORT = "587";
 
-	/* "**********@gmail.com", */
-	public static final String[] TO = {"monitoringtrigger@gmail.com"};
-	public static final String SUBJECT = FrameworkConstants.getProjectName();
+    /**
+     * The email address from which emails will be sent.
+     */
+    public static final String FROM = "infinitemonitoring09@gmail.com";
+
+    /**
+     * The password for the email account used to send emails.
+     */
+    public static final String PASSWORD = "begolhijumdmmoro";
+
+    /**
+     * An array of recipient email addresses.
+     */
+    public static final String[] TO = {"monitoringtrigger@gmail.com"};
+
+    /**
+     * The subject line for the emails.
+     * It is set to the project name retrieved from {@link FrameworkConstants#getProjectName()}.
+     */
+    public static final String SUBJECT = FrameworkConstants.getProjectName();
 }
