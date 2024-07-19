@@ -22,6 +22,9 @@ public class MethodsListner implements IMethodInterceptor {
 
 		List<Map<String, String>> list = null;
 		list = ExcelUtils.getTestDetails(FrameworkConstranst.getRunerdatasheet());
+		System.out.println(methods.get(0).getMethod().getMethodName().equalsIgnoreCase(list.get(1).get("testname")));
+		System.out.println(list.get(0).get("execute").equalsIgnoreCase("yes"));
+		System.out.println(list.get(1).get("execute").equalsIgnoreCase("yes"));
 		List<IMethodInstance> result = new ArrayList<>();
 		for (int i = 0; i < methods.size(); i++) {
 			for (int j = 0; j < list.size(); j++) {
@@ -30,10 +33,11 @@ public class MethodsListner implements IMethodInterceptor {
 						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("count")));
 						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("priority")));
 						result.add(methods.get(i));
+						
 					}
 				}
 			}
-		
+		System.out.println(result);
 
 		return result;
 	}
