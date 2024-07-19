@@ -5,5 +5,6 @@ public enum CatogoryType {
 	REGRESSION,
 	SMOKE,
 	SANITY,
-	MINIREGRESSION
+	MINIREGRESSION,
+	None
 }

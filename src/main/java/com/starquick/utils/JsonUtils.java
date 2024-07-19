@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import com.starquick.constants.FrameworkConstranst;
+import com.starquick.constants.FrameworkConstants;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.starquick.enums.ConfigProperties;
@@ -22,7 +22,7 @@ public class JsonUtils {
 	
 	static {
 		try {
-			FileInputStream file = new  FileInputStream(FrameworkConstranst.getJsonfilepath());
+			FileInputStream file = new  FileInputStream(FrameworkConstants.getJsonfilepath());
 			configMap = new ObjectMapper().readValue(file, HashMap.class);		  
 		}catch(Exception e) {
 			e.printStackTrace();

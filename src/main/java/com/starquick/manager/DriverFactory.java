@@ -2,6 +2,7 @@ package com.starquick.manager;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.Objects;
 
 import org.openqa.selenium.WebDriver;
@@ -30,11 +31,13 @@ public final class DriverFactory {
 					ChromeOptions cap = new ChromeOptions();
 					driver=  new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
-					System.out.println("this is chromr Local");
+					//System.out.println("this is chromr Local");
 					ChromeOptions options = new ChromeOptions();
-					System.setProperty("webdriver.chrome.driver", "C:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
-					options.setBinary("C:/chrome-win64/chrome-win64/chrome.exe");
+//					System.setProperty("webdriver.chrome.driver", "C:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+//					options.setBinary("C:/chrome-win64/chrome-win64/chrome.exe");
+					System.out.println("This is Chrome Local");
 					driver= new ChromeDriver(options);
+					driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 					
 				}
 			}else  if(browserName.equalsIgnoreCase("edge")){

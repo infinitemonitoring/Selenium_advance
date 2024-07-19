@@ -5,9 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.starquick.constants.FrameworkConstants;
 import org.testng.annotations.DataProvider;
-
-import com.starquick.constants.FrameworkConstranst;
 
 
 public final class DataProviderUtils {
@@ -20,7 +19,7 @@ public final class DataProviderUtils {
 
 		if (list.isEmpty()) {
 
-			list = ExcelUtils.getTestDetails(FrameworkConstranst.getExecuriondatasheet());
+			list = ExcelUtils.getTestDetails(FrameworkConstants.getExecuriondatasheet());
 
 		}
 

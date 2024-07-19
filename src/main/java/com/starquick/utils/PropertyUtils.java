@@ -1,17 +1,15 @@
 package com.starquick.utils;
 
+import com.starquick.constants.FrameworkConstants;
+import com.starquick.enums.ConfigProperties;
+import com.starquick.exceptions.FrameworkException;
+
 import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Properties;
-import java.lang.System;
-
-import com.starquick.constants.FrameworkConstranst;
-
-import com.starquick.enums.ConfigProperties;
-import com.starquick.exceptions.FrameworkException;
 
 public class PropertyUtils {
 
@@ -19,9 +17,9 @@ public class PropertyUtils {
 
 	}
 	protected static Properties property = new Properties();
-	public static final Map<String, String> ConfigMap = new HashMap<String, String>();
+	protected static final Map<String, String> ConfigMap = new HashMap<String, String>();
 	static {
-		try(FileInputStream file = new  FileInputStream(FrameworkConstranst.getConfigfilepath())) {
+		try(FileInputStream file = new  FileInputStream(FrameworkConstants.getConfigfilepath())) {
 
 			property.load(file);
 
@@ -59,5 +57,8 @@ public class PropertyUtils {
 		}
 		return ConfigMap.get(key.name().toLowerCase());
 	}
+	public static  void setProperty(String classname){
+		ConfigMap.put("Classname", classname);
 
+	}
 }

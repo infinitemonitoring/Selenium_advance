@@ -1,13 +1,11 @@
 package com.starquick.reports;
 
-import java.awt.Desktop;
-import java.io.File;
 import java.util.Objects;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.starquick.constants.FrameworkConstranst;
+import com.starquick.constants.FrameworkConstants;
 import com.starquick.enums.CatogoryType;
 /**
  * Report initaization
@@ -23,7 +21,7 @@ public class ExtendReport {
 	public static void initreport()  {
 		if(Objects.isNull(extent)){
 			extent = new ExtentReports();
-			ExtentSparkReporter spark = new ExtentSparkReporter(FrameworkConstranst.getExtendFileReports());
+			ExtentSparkReporter spark = new ExtentSparkReporter(FrameworkConstants.getExtendFileReports());
 			extent.attachReporter(spark);
 			spark.config().setTheme(Theme.DARK);
 			spark.config().setDocumentTitle("Automation Report");
