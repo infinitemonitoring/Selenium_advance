@@ -1,1323 +1,662 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="1"
-	failed="0" skipped="14">
-	<reporter-output>
-	</reporter-output>
-	<suite started-at="2024-07-19T12:00:11 IST" name="Suite"
-		finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
-		<groups>
-		</groups>
-		<test started-at="2024-07-19T12:00:11 IST" name="Test"
-			finished-at="2024-07-19T12:01:30 IST" duration-ms="78762">
-			<class name="com.starquick.test.starquickaddcartjourney">
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:00:13 IST" name="setUp"
-					finished-at="2024-07-19T12:00:19 IST" duration-ms="6633"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[Ljava.lang.Object;@5d1b9c3d]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method
-					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:00:19 IST" name="Milksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:28 IST"
-					duration-ms="68872" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+<testng-results retried="3" ignored="3" total="21" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T01:10:29 IST" name="Suite" finished-at="2024-07-20T01:30:37 IST" duration-ms="1207996">
+    <groups>
+    </groups>
+    <test started-at="2024-07-20T01:10:29 IST" name="Test" finished-at="2024-07-20T01:30:37 IST" duration-ms="1207996">
+      <class name="com.starquick.test.starquickaddcartjourney">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:10:30 IST" name="setUp" finished-at="2024-07-20T01:10:36 IST" duration-ms="6131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6dbcf214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:10:36 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-20T01:11:51 IST" duration-ms="75724" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Milksearchproduct -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:28 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:28 IST" duration-ms="189"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:28 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="1588"
-					status="FAIL">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[Ljava.lang.Object;@5fdfdf71]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Amul Masti Dahi Pouch'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61327/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41a5cd119936af67d33b0b737467c796]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Amul Masti Dahi Pouch'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61327/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41a5cd119936af67d33b0b737467c796
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:35)
+at com.starquick.pages.TATAOpenLandingPage1.product_search_Amul_Masti_Dahi_Pouch(TATAOpenLandingPage1.java:57)
+at com.starquick.test.starquickaddcartjourney.Milksearchproduct(starquickaddcartjourney.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
 at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method
-					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:11:51 IST" name="tearDown" finished-at="2024-07-20T01:11:52 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:11:52 IST" name="setUp" finished-at="2024-07-20T01:11:57 IST" duration-ms="5454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6dbcf214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:11:57 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-20T01:13:05 IST" duration-ms="67935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:13:05 IST" name="tearDown" finished-at="2024-07-20T01:13:06 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:13:06 IST" name="setUp" finished-at="2024-07-20T01:13:09 IST" duration-ms="3668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@496a31da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:13:09 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-20T01:14:19 IST" duration-ms="69440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Edge}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Milksearchproduct -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Milksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:14:19 IST" name="tearDown" finished-at="2024-07-20T01:14:20 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:14:20 IST" name="setUp" finished-at="2024-07-20T01:14:30 IST" duration-ms="9163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7c251f90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:14:30 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-20T01:16:03 IST" duration-ms="93117" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Firefox}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='product-category-container-label-item'][normalize-space()='Curd & Yougurt'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.1, moz:accessibilityChecks: false, moz:buildID: 20240618110440, moz:debuggerAddress: 127.0.0.1:40847, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3208, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:40847/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a94342d8-a1db-4679-aa47-47a28a3e2e1f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='product-category-container-label-item'][normalize-space()='Curd & Yougurt'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.1, moz:accessibilityChecks: false, moz:buildID: 20240618110440, moz:debuggerAddress: 127.0.0.1:40847, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3208, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:40847/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a94342d8-a1db-4679-aa47-47a28a3e2e1f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:45)
+at com.starquick.pages.TATAOpenLandingPage1.product_search_Amul_Masti_Dahi_Pouch(TATAOpenLandingPage1.java:59)
+at com.starquick.test.starquickaddcartjourney.Milksearchproduct(starquickaddcartjourney.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
 at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Milksearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:16:03 IST" name="tearDown" finished-at="2024-07-20T01:16:04 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:16:04 IST" name="setUp" finished-at="2024-07-20T01:16:12 IST" duration-ms="8502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7c251f90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:16:12 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-07-20T01:17:26 IST" duration-ms="73565" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Firefox}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Amul Masti Dahi Pouch'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.1, moz:accessibilityChecks: false, moz:buildID: 20240618110440, moz:debuggerAddress: 127.0.0.1:2374, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14108, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:2374/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8bea38ba-bf5b-4f00-95e4-b32ae9034596]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Amul Masti Dahi Pouch'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.1, moz:accessibilityChecks: false, moz:buildID: 20240618110440, moz:debuggerAddress: 127.0.0.1:2374, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14108, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:2374/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8bea38ba-bf5b-4f00-95e4-b32ae9034596
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:35)
+at com.starquick.pages.TATAOpenLandingPage1.product_search_Amul_Masti_Dahi_Pouch(TATAOpenLandingPage1.java:57)
+at com.starquick.test.starquickaddcartjourney.Milksearchproduct(starquickaddcartjourney.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:105)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:17:26 IST" name="tearDown" finished-at="2024-07-20T01:17:27 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:17:27 IST" name="setUp" finished-at="2024-07-20T01:17:33 IST" duration-ms="5547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@51841ac6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:17:33 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-20T01:18:10 IST" duration-ms="37276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Onionsearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method
-					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Onionsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:18:10 IST" name="tearDown" finished-at="2024-07-20T01:18:10 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:18:10 IST" name="setUp" finished-at="2024-07-20T01:18:16 IST" duration-ms="5559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5ba26eb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:18:16 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-20T01:18:51 IST" duration-ms="35701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Edge}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Onionsearchproduct -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Onionsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Onionsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:18:51 IST" name="tearDown" finished-at="2024-07-20T01:18:53 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:18:53 IST" name="setUp" finished-at="2024-07-20T01:19:01 IST" duration-ms="7772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@435e60ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Onionsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:19:01 IST" name="Onionsearchproduct" data-provider="getData" finished-at="2024-07-20T01:19:35 IST" duration-ms="34780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Onion, testname=Onionsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Onionsearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Onionsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:19:35 IST" name="tearDown" finished-at="2024-07-20T01:19:37 IST" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:19:37 IST" name="setUp" finished-at="2024-07-20T01:19:41 IST" duration-ms="4757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@17d32e9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:19:41 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-20T01:21:18 IST" duration-ms="96923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Chrome}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Rusksearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:21:18 IST" name="tearDown" finished-at="2024-07-20T01:21:19 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:21:19 IST" name="setUp" finished-at="2024-07-20T01:21:29 IST" duration-ms="10580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@66f0548d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:21:29 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-20T01:23:23 IST" duration-ms="114247" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[@aria-label="Continue Browsing"] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63165}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63165/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccbe05c0fbeb9710de201068ada5a86a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@aria-label="Continue Browsing"] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63165}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63165/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ccbe05c0fbeb9710de201068ada5a86a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:45)
+at com.starquick.pages.BasePage.getText(BasePage.java:94)
+at com.starquick.pages.TATAOpenLandingPage1.BritaniaRusk(TATAOpenLandingPage1.java:98)
+at com.starquick.test.starquickaddcartjourney.Rusksearchproduct(starquickaddcartjourney.java:64)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
 at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Rusksearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method
-					signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="Rusksearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:23:23 IST" name="tearDown" finished-at="2024-07-20T01:23:25 IST" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:23:25 IST" name="setUp" finished-at="2024-07-20T01:23:31 IST" duration-ms="6103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@66f0548d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:23:31 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-20T01:24:40 IST" duration-ms="68591" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //span[@id='addCartProducts'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63480}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63480/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68d468b45193702a695de186a13cc889]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@id='addCartProducts'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63480}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63480/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68d468b45193702a695de186a13cc889
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:45)
+at com.starquick.pages.TATAOpenLandingPage1.Rusk(TATAOpenLandingPage1.java:79)
+at com.starquick.test.starquickaddcartjourney.Rusksearchproduct(starquickaddcartjourney.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:105)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:24:40 IST" name="tearDown" finished-at="2024-07-20T01:24:41 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:24:41 IST" name="setUp" finished-at="2024-07-20T01:24:50 IST" duration-ms="8372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2e6f610d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:24:50 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-07-20T01:26:19 IST" duration-ms="89544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Firefox}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- Rusksearchproduct -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:26:19 IST" name="tearDown" finished-at="2024-07-20T01:26:20 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:26:20 IST" name="setUp" finished-at="2024-07-20T01:26:26 IST" duration-ms="5623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e86a5a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:26:26 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-20T01:27:01 IST" duration-ms="34688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Chrome}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- detergentsearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detergentsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:01 IST" name="tearDown" finished-at="2024-07-20T01:27:01 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:01 IST" name="setUp" finished-at="2024-07-20T01:27:07 IST" duration-ms="5993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@10afe71a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:07 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-20T01:27:42 IST" duration-ms="34399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Edge}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- detergentsearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="detergentsearchproduct"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detergentsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:42 IST" name="tearDown" finished-at="2024-07-20T01:27:43 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:43 IST" name="setUp" finished-at="2024-07-20T01:27:51 IST" duration-ms="8109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@741f8dbe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="detergentsearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:27:51 IST" name="detergentsearchproduct" data-provider="getData" finished-at="2024-07-20T01:28:25 IST" duration-ms="33723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=surf excel, testname=detergentsearchproduct, SecondProduct=, execute=Yes, browser=Firefox}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- detergentsearchproduct -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detergentsearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:28:25 IST" name="tearDown" finished-at="2024-07-20T01:28:26 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:28:26 IST" name="setUp" finished-at="2024-07-20T01:28:32 IST" duration-ms="5501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@212dfd39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:28:32 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-20T01:29:07 IST" duration-ms="34819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Chrome}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchcookoil -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcookoil -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:07 IST" name="tearDown" finished-at="2024-07-20T01:29:07 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:07 IST" name="setUp" finished-at="2024-07-20T01:29:13 IST" duration-ms="5650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@a2ddf26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:13 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-20T01:29:48 IST" duration-ms="34978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Edge}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchcookoil -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-				<test-method
-					signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="searchcookoil"
-					data-provider="getData" finished-at="2024-07-19T12:01:30 IST"
-					duration-ms="0" status="SKIP">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcookoil -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:48 IST" name="tearDown" finished-at="2024-07-20T01:29:49 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:49 IST" name="setUp" finished-at="2024-07-20T01:29:56 IST" duration-ms="6453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@65d57e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchcookoil(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:29:56 IST" name="searchcookoil" data-provider="getData" finished-at="2024-07-20T01:30:30 IST" duration-ms="34051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[{product=Fortune oil, testname=searchcookoil, SecondProduct=, execute=Yes, browser=Firefox}]]>
-							</value>
-						</param>
-					</params>
-					<exception
-						class="org.openqa.selenium.SessionNotCreatedException">
-						<message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.103'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:48)
-at com.starquick.manager.Driver.initDriver(Driver.java:20)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- searchcookoil -->
-				<test-method is-config="true"
-					signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="setUp"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- setUp -->
-				<test-method is-config="true"
-					signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@52e6fdee]"
-					started-at="2024-07-19T12:01:30 IST" name="tearDown"
-					finished-at="2024-07-19T12:01:30 IST" duration-ms="0" status="SKIP">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- tearDown -->
-			</class> <!-- com.starquick.test.starquickaddcartjourney -->
-		</test> <!-- Test -->
-	</suite> <!-- Suite -->
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcookoil -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@54e1c68b]" started-at="2024-07-20T01:30:30 IST" name="tearDown" finished-at="2024-07-20T01:30:37 IST" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.starquick.test.starquickaddcartjourney -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
