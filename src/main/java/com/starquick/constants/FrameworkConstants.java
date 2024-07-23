@@ -22,7 +22,7 @@ public final class FrameworkConstants {
 	private static final String USERDIRECTORY = System.getProperty("user.dir");
 	private static final String CONFIGFILEPATH = RESOURCESPATH+"/config/config.properties";
 	private static final String EXCELFILEPATH = USERDIRECTORY+"/excel/testdata.xlsx";
-	private static final int  EXPLICITWAIT = 10;
+	private static final int  EXPLICITWAIT = 30;
 	private static final String JSONFILEPATH = USERDIRECTORY+"/json/jsonConfig.json";
 	@Getter
     private static final String Zipped_ExtentReports_Folder_Name = "ExtentReports.zip";

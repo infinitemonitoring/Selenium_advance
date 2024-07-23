@@ -53,7 +53,7 @@ public class BaseTest {
 	 * It ensures that the WebDriver is properly closed and cleaned up after the test execution.
 	 * </p>
 	 */
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	protected void tearDown() {
 		Driver.quitDriver();
 		LogManager.getLogger().info("Driver Quit successfully");

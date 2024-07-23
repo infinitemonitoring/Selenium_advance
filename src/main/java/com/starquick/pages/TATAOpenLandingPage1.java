@@ -14,7 +14,7 @@ public final class TATAOpenLandingPage1 extends BasePage {
 	private final By logoimage = By.xpath("//*[@class='starlogo mobile-starlogo']");
 	private final By clicksearech = By.xpath("//*[@id='search-input-top-nav-modal']");
 	private final By Amulmilk = By.xpath("(//a[normalize-space()='Amul Taaza Milk Pouch'])[1]");
-	private final By Amul_Masti_Dahi_Pouch = By.xpath("//a[normalize-space()='Amul Masti Dahi Pouch']");
+	private final By Amul_Masti_Dahi_Pouch = By.xpath("//div[@class='product-card-name-container']/child::a[normalize-space()='Amul Masti Dahi Pouch']");
 	private final By catagorysearch = By
 			.xpath("//a[@class='product-category-container-label-item'][normalize-space()='Curd & Yougurt']");
 	private final By Addtocard = By.xpath("//span[@id='addCartProducts']");
@@ -56,6 +56,7 @@ public final class TATAOpenLandingPage1 extends BasePage {
 		waiter();
 		ExplicitWaitFactory.performexplicitwait(waitStatergy.CLICKABLE, Amul_Masti_Dahi_Pouch);
 		clickjs(waitStatergy.CLICKABLE, Amul_Masti_Dahi_Pouch, "Amul_Masti_Dahi_Pouch");
+		waiter();
 		ExplicitWaitFactory.performexplicitwait(waitStatergy.VISIBLE, catagorysearch);
 		click(waitStatergy.CLICKABLE, Addtocard, "Add to card");
 

@@ -130,6 +130,6 @@ public class BasePage {
      * </p>
      */
     protected void waiter() {
-        Uninterruptibles.sleepUninterruptibly(15, TimeUnit.SECONDS);
+        Uninterruptibles.sleepUninterruptibly(10, TimeUnit.SECONDS);
     }
 }

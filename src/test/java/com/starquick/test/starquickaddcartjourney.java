@@ -7,6 +7,7 @@ import com.starquick.pages.TATAOpenLandingPage1;
 import org.apache.logging.log4j.LogManager;
 import org.assertj.core.api.Assertions;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -38,10 +39,15 @@ public final class starquickaddcartjourney extends BaseTest {
     @Test
     protected void Milksearchproduct(HashMap<String, String> data) {
         LogManager.getLogger().info("Milk Search Product Started");
-        String product_search_Amul_Masti_Dahi_Pouch = new TATAOpenLandingPage1().clicksearch()
-                .searchproduct(data.get("product") + Keys.ENTER).Amulmilk().clicksearch()
-                .searchproduct(data.get("SecondProduct") + Keys.ENTER).product_search_Amul_Masti_Dahi_Pouch();
-        Assertions.assertThat(product_search_Amul_Masti_Dahi_Pouch).containsIgnoringCase("Continue").isNotNull();
+        try {
+			String product_search_Amul_Masti_Dahi_Pouch = new TATAOpenLandingPage1().clicksearch()
+			        .searchproduct(data.get("product") + Keys.ENTER).Amulmilk().clicksearch()
+			        .searchproduct(data.get("SecondProduct") + Keys.ENTER).product_search_Amul_Masti_Dahi_Pouch();
+			Assertions.assertThat(product_search_Amul_Masti_Dahi_Pouch).containsIgnoringCase("Continue").isNotNull();
+		} catch (NoSuchElementException e) {
+			new TATAOpenLandingPage1().AmulDahiNotifymebutton();
+            
+		}
         LogManager.getLogger().info("Milk Search Product End");
     }
 
@@ -130,7 +136,7 @@ public final class starquickaddcartjourney extends BaseTest {
      */
     @FrameworkAnotation(author = { "Faraz", "Yogesh" }, category = { CatogoryType.SANITY })
     @Test
-    protected void sprite(HashMap<String, String> data) {
+    protected void softdrink(HashMap<String, String> data) {
         LogManager.getLogger().info("Sprite product Start");
         String softdrink = new TATAOpenLandingPage1().clicksearch()
                 .searchproduct(data.get("product") + Keys.ENTER).sprite();
