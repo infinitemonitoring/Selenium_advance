@@ -1,5 +1,6 @@
 # This Docker Compose file defines services for Selenium Grid (Chrome, Edge, Firefox) along with Elasticsearch and Kibana.
 # To start the services, run: docker-compose -f docker.yaml up
+version: "3"
 services:
   chrome:
     image: selenium/node-chrome:dev
