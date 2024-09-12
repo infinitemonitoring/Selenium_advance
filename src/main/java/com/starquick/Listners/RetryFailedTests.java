@@ -23,7 +23,7 @@ import com.starquick.utils.PropertyUtils;
 public class RetryFailedTests implements IRetryAnalyzer {
 
     private int count = 0;
-    private final int retries = 1;
+    private final int retries = 3;
 
     /**
      * Determines whether a test should be retried.

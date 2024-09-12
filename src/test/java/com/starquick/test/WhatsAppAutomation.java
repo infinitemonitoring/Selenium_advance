@@ -19,6 +19,7 @@ public class WhatsAppAutomation {
 
         // Path to your custom Chrome profile
     	//close();
+    	System.out.println(System.currentTimeMillis());
     	 ChromeOptions options = new ChromeOptions();
          String chromeCachePath = String.valueOf(System.getProperty("user.home")) + "\\AppData\\Local\\Google\\Chrome\\User Data";
          

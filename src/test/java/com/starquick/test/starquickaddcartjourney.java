@@ -46,7 +46,6 @@ public final class starquickaddcartjourney extends BaseTest {
 			Assertions.assertThat(product_search_Amul_Masti_Dahi_Pouch).containsIgnoringCase("Continue").isNotNull();
 		} catch (NoSuchElementException e) {
 			new TATAOpenLandingPage1().AmulDahiNotifymebutton();
-            
 		}
         LogManager.getLogger().info("Milk Search Product End");
     }
