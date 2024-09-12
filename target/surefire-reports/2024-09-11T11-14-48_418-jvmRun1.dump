@@ -1,0 +1,18 @@
+# Created at 2024-09-11T11:15:50.126
+com.epam.reportportal.exception.InternalReportPortalClientException: Wait for Launch start timed out
+	at com.epam.reportportal.utils.Waiter.till(Waiter.java:126)
+	at com.epam.reportportal.service.launch.SecondaryLaunch.waitForLaunchStart(SecondaryLaunch.java:57)
+	at com.epam.reportportal.service.launch.SecondaryLaunch.start(SecondaryLaunch.java:89)
+	at com.epam.reportportal.testng.TestNGService.startLaunch(TestNGService.java:139)
+	at com.epam.reportportal.testng.BaseTestNGListener.onExecutionStart(BaseTestNGListener.java:52)
+	at org.testng.TestNG.runExecutionListeners(TestNG.java:1129)
+	at org.testng.TestNG.run(TestNG.java:1074)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+

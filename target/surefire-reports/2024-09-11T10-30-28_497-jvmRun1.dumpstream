@@ -1,0 +1,6 @@
+# Created at 2024-09-11T10:31:30.845
+Wait for Launch start timed out
+
+# Created at 2024-09-11T10:32:00.844
+Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
+

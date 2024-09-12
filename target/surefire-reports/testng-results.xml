@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-12T14:42:58 IST" name="Suite" finished-at="2024-09-12T14:46:37 IST" duration-ms="219414">
+    <groups>
+    </groups>
+    <test started-at="2024-09-12T14:42:58 IST" name="Product Search Tests" finished-at="2024-09-12T14:46:37 IST" duration-ms="219414">
+      <class name="com.starquick.test.starquickaddcartjourney">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:43:25 IST" duration-ms="25571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3542162a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:43:26 IST" duration-ms="25990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@698122b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:43:23 IST" duration-ms="23037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4212a0c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:44:27 IST" duration-ms="87089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e7aa82b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:43:17 IST" duration-ms="17205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b2c0e88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:00 IST" name="setUp" finished-at="2024-09-12T14:44:27 IST" duration-ms="87736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5bd82fed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:17 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:14 IST" duration-ms="116853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:23 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:09 IST" duration-ms="106661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:25 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:09 IST" duration-ms="103458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method retried="true" signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:43:26 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:04 IST" duration-ms="98507" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //img[@class='location-close-button'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2808.0, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:45363}, msedge: {msedgedriverVersion: 130.0.2808.1 (814e2e363311e..., userDataDir: /tmp/.com.microsoft.Edge.U7...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 130.0.2808.0, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ebfee2a8e336b24e98bc003af5c4463]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //img[@class='location-close-button'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2808.0, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:45363}, msedge: {msedgedriverVersion: 130.0.2808.1 (814e2e363311e..., userDataDir: /tmp/.com.microsoft.Edge.U7...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 130.0.2808.0, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ebfee2a8e336b24e98bc003af5c4463
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.starquick.factories.ExplicitWaitFactory.performexplicitwait(ExplicitWaitFactory.java:35)
+at com.starquick.pages.BasePage.click(BasePage.java:40)
+at com.starquick.pages.TATAOpenLandingPage1.after_Add_to_Cart_closebutton(TATAOpenLandingPage1.java:73)
+at com.starquick.test.starquickaddcartjourney.Rusksearchproduct(starquickaddcartjourney.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method signature="Milksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:44:27 IST" name="Milksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:26 IST" duration-ms="59466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Milk, testname=Milksearchproduct, SecondProduct=Amul Masti Dahi Pouch, execute=Yes, browser=FireFox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Milksearchproduct -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:44:27 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-09-12T14:45:41 IST" duration-ms="73767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=FireFox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:04 IST" name="tearDown" finished-at="2024-09-12T14:45:08 IST" duration-ms="4374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:08 IST" name="setUp" finished-at="2024-09-12T14:45:22 IST" duration-ms="13264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@698122b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:09 IST" name="tearDown" finished-at="2024-09-12T14:45:11 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:13 IST" name="tearDown" finished-at="2024-09-12T14:45:14 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:14 IST" name="tearDown" finished-at="2024-09-12T14:45:14 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Rusksearchproduct(java.util.HashMap)[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:22 IST" name="Rusksearchproduct" data-provider="getData" finished-at="2024-09-12T14:46:36 IST" duration-ms="74047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=Rusk, testname=Rusksearchproduct, SecondProduct=Britania Rusk, execute=Yes, browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rusksearchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:26 IST" name="tearDown" finished-at="2024-09-12T14:45:27 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:45:41 IST" name="tearDown" finished-at="2024-09-12T14:45:42 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.starquickaddcartjourney@47af7f3d]" started-at="2024-09-12T14:46:36 IST" name="tearDown" finished-at="2024-09-12T14:46:37 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.starquick.test.starquickaddcartjourney -->
+    </test> <!-- Product Search Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
